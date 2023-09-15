@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Css parte superior */
+.bg-header{
+    display: flex;
+    color: black;
+    padding: 1vh 2vh 0vh 2vh;
+
+    border-bottom: solid 1.5px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item_dev{
+    display: flex;
+    justify-content: center;
+}
+.item_icons{
+    display: flex;
+    justify-content: end;
+    
+}
+.item_icons svg{
+    padding: 3px;
+}
+
+/* Css efeito no "Developer web" */
+.digitando::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .5s infinite;
+}
+
+/* função piscar */
+@keyframes pisca {
+    from {
+        opacity: 1;
+
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+
+/* conteudo */
+.conteudo{
+    margin-top: 10vh;
+    text-align: center;
+}
+.sobre_mim{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.centro_text{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50vh;
+    max-width: 50vh;
+}
+/* Logos das tecnologias */
+.tecnologia svg{
+    width: 6vh;
+    height: 6vh;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+}
+
+/* botoes de link */
+.about_me button{
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 3px;
+
+    min-width: 12vh;
+    max-width: 12vh;
+    min-height: 4vh;
+    max-height: 4vh;
+   
+    margin-bottom: 6vh;
+}
+.about_me button:hover{
+    border: solid 2px blue;
+}
+.about_me a {
+    color: black;
+}
+.about_me a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}
+/* Css imgem */
+.imagem img{
+    min-width: 50vh;
+    max-width: 50vh;
+
+}

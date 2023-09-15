@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Css parte superior */
+.bg-header{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 1vh 2vh 0vh 2vh;
+
+    border-bottom: solid 1.5px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.voltar a{
+    color: black;
+}
+
+.item_icons svg{
+    padding: 3px;
+}
+
+/* conteudo site */
+.conteudo{
+    padding: 10vh 6vh 10vh 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteudo h1,h3{
+    text-align: center;
+    font-family: 'poupins';
+
+}
+.conteudo ul a {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.conteudo svg{
+    color: black;
+    margin-bottom: 1vh;
+    width: 3vh;
+    height: 3vh;
+}
+
+
