@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Css parte superior */
+.bg-header{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 1vh 2vh 0vh 2vh;
+
+    border-bottom: solid 1.5px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.voltar a{
+    color: black;
+}
+
+.item_icons svg{
+    padding: 3px;
+}
+
+/*Css conteudo */
+.projetos_conteudo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.conteudo_card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+
+    min-height: 78vh;
+    max-height: 78vh;
+}
+
+/* css imagem card */
+.conteudo_card img{
+    min-height: 50%;
+    max-height: 50%;
+}
+
+/* css botao visitar */
+.botao_visitar{
+    background-color: rgb(23, 23, 253);
+    border: none;
+    width: 90%;
+
+}
+.botao_visitar:hover{
+    background-color: rgb(2, 2, 141);
+}
+
+/* tecnologia icons */
+.conteudo_card svg{
+    margin-top: 2vh;
+
+    min-width: 6vh;
+    max-width: 6vh;
+    min-height: 6vh;
+    max-height: 6vh;
+}
