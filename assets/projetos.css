@@ -1,4 +1,4 @@
-*{
+*{ 
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,8 +35,10 @@
     margin-right: auto;
     margin-top: 6vh;
 
-    min-height: 78vh;
-    max-height: 78vh;
+    min-width: 50vh;
+    max-width: 50vh;
+    min-height: 70vh;
+    max-height: 70vh;
 }
 
 /* css imagem card */
