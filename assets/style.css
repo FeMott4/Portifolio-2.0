@@ -5,7 +5,7 @@
 }
 /* Css parte superior */
 .bg-header{
-    display: flex;
+    display: flex; 
     color: black;
     padding: 1vh 2vh 0vh 2vh;
 
@@ -24,6 +24,10 @@
 }
 .item_icons svg{
     padding: 3px;
+}
+/* css page */
+.body{
+    overflow: hidden;
 }
 
 /* Css efeito no "Developer web" */
@@ -61,7 +65,7 @@
 .centro_text{
     margin-left: auto;
     margin-right: auto;
-    min-width: 50vh;
+    min-width: 20vh;
     max-width: 50vh;
 }
 /* Logos das tecnologias */
@@ -98,7 +102,7 @@
 }
 /* Css imgem */
 .imagem img{
-    min-width: 50vh;
-    max-width: 50vh;
+    min-width: 40vh;
+    max-width: 40vh;
 
 }

@@ -23,6 +23,9 @@
 }
 
 /*Css conteudo */
+.body{
+    overflow: hidden;
+}
 .projetos_conteudo{
     display: flex;
     justify-content: space-between;
@@ -35,10 +38,10 @@
     margin-right: auto;
     margin-top: 6vh;
 
-    min-width: 50vh;
+    min-width: 40vh;
     max-width: 50vh;
     min-height: 70vh;
-    max-height: 70vh;
+    max-height: 82vh;
 }
 
 /* css imagem card */

@@ -23,6 +23,9 @@
 }
 
 /* Css conteudo */
+.body{
+    overflow: hidden;
+}
 
 .conteudo{
     margin-top: 3vh;
