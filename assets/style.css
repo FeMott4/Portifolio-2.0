@@ -106,3 +106,27 @@
     max-width: 40vh;
 
 }
+
+/* Css container um pouco sobre mim */
+.divisao{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.title2_mais_sobre{
+    text-align: center;
+}
+
+/* css img */
+.imagem_pessoal img{
+    border: 1px solid black;
+    border-radius: 100%;
+
+    min-width: 20vh;
+    max-width: 40vh;
+    min-height: 20vh;
+    max-height: 40vh;
+}
+
+.texto p{
+    
+}
