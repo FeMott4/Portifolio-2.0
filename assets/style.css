@@ -25,36 +25,75 @@
 .item_icons svg{
     padding: 3px;
 }
-/* Css menu slide */
-.slide_bar{
-    width: 90px;
-    height: 30%;
-    background-color: black;
-    padding: 20px;
+
+/* css botao dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    position: fixed;
+    width: auto;
+    height: 8vh;
+    background-color:black ;
+    color: white;
+    border-radius: 0 1vh 1vh 0;
+
+}
+  
+  
+.dropdown_link {
+    display: none;
+    position: fixed;
+    background-color:black;
+    height: 60vh;
+    min-width: 30vh;
+    max-width: 30vh;
+    border-radius: 0 2vh 2vh 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 3vh;
     
-    color: white;
-    overflow: hidden;
-    border-radius: 0 1rem 1rem 0;
-    transition: width .70s ;
-    position:fixed;
 }
-.slide_bar:hover{
-    width: 200px;
 
-}
-.slide_bar ul{
-    text-decoration: none;
-}
-.slide_bar li{
-    list-style-type: none;
+.dropdown_link li{
     display: flex;
-    flex-wrap: nowrap;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+
+    border-bottom:  solid 1px white;
+
 }
-.slide_bar a{
+.dropdown_link li svg{
+    width: 4vh;
+    height: 4vh;
     color: white;
-
-
+    margin-right: 2vh;
 }
+.dropdown_link a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown_link a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+    border-radius:2vh ;
+}
+.dropdown_link svg:hover{
+    color: black;
+}
+  
+.dropdown:hover .dropdown_link {
+     display:block; 
+}
+  
+
+
 /* css page */
 .body{
     overflow: hidden;
