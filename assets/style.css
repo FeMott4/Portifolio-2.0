@@ -25,6 +25,36 @@
 .item_icons svg{
     padding: 3px;
 }
+/* Css menu slide */
+.slide_bar{
+    width: 90px;
+    height: 30%;
+    background-color: black;
+    padding: 20px;
+    
+    color: white;
+    overflow: hidden;
+    border-radius: 0 1rem 1rem 0;
+    transition: width .70s ;
+    position:fixed;
+}
+.slide_bar:hover{
+    width: 200px;
+
+}
+.slide_bar ul{
+    text-decoration: none;
+}
+.slide_bar li{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.slide_bar a{
+    color: white;
+
+
+}
 /* css page */
 .body{
     overflow: hidden;
@@ -116,17 +146,46 @@
     text-align: center;
 }
 
+.conteudo_mais_sobre{
+    margin-top: 6vh;
+}
 /* css img */
 .imagem_pessoal img{
     border: 1px solid black;
     border-radius: 100%;
 
-    min-width: 20vh;
+    min-width: 30vh;
     max-width: 40vh;
-    min-height: 20vh;
+    min-height: 30vh;
     max-height: 40vh;
 }
 
+.imagem_pessoal{
+    margin-top: 3vh;
+    text-align: center;
+    margin-bottom: 3vh;
+
+}
+/* css testo */
+.texto{
+    display: flex;
+}
+/* /* css linha vertical */
+
+#linha_vertical{
+    height: 13rem;
+    border-right: 1px solid blue;
+    margin-right: 3vh;
+}
+/* @media(width: 780px){
+    #linha_vertical{
+        width: 60vh;
+        border-top: 1px solid red;
+       
+    }
+}  */
+
 .texto p{
-    
+
+
 }
