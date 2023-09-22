@@ -34,11 +34,11 @@
 
 .dropbtn {
     position: fixed;
-    width: auto;
-    height: 8vh;
+    width: 7vh;
+    height: 10vh;
     background-color:black ;
     color: white;
-    border-radius: 0 1vh 1vh 0;
+    border-radius: 0 2vh 2vh 0;
 
 }
   
@@ -47,7 +47,7 @@
     display: none;
     position: fixed;
     background-color:black;
-    height: 60vh;
+    height: 100%;
     min-width: 30vh;
     max-width: 30vh;
     border-radius: 0 2vh 2vh 0;
@@ -216,15 +216,119 @@
     border-right: 1px solid blue;
     margin-right: 3vh;
 }
-/* @media(width: 780px){
-    #linha_vertical{
-        width: 60vh;
-        border-top: 1px solid red;
-       
-    }
-}  */
-
-.texto p{
 
 
+/* -----------secao contato------------ */
+.contact_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+/* Edição div fundo */
+.contact_page ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8vh;
+    background: rgb(242,242,242);
+    background: radial-gradient(circle, rgba(242,242,242,0.5) 0%, rgba(217,217,217,0.5) 50%, rgba(191,191,191,0.5) 100%);
+    padding: 2vh 5vh 2vh 5vh;
+    border-radius: 10vh;
+}
+/* css botao */
+.contact_page ul li{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.5s;
+}
+.contact_page ul li:hover{
+    width: 180px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0);
+}
+/*-- Css para cor dos botoes quando abertos --*/
+.contact_page ul .linkdin::before{
+    content: '';
+    position: absolute;
+    inset:0;
+    border-radius: 50px;
+    background-color: #1BB8FA;
+    opacity: 0;
+    transition: 0.5s;
+}
+.contact_page ul .email::before{
+    content: '';
+    position: absolute;
+    inset:0;
+    border-radius: 50px;
+    background-color: #C92724;
+    opacity: 0;
+    transition: 0.5s;
+}
+.contact_page ul .github::before{
+    content: '';
+    position: absolute;
+    inset:0;
+    border-radius: 50px;
+    background-color: #323232;
+    opacity: 0;
+    transition: 0.5s;
+}
+.contact_page ul .whats::before{
+    content: '';
+    position: absolute;
+    inset:0;
+    border-radius: 50px;
+    background-color: #6AF35A;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.contact_page ul li:hover::before{
+    opacity: 1;
+}
+/* para a imagem sumir */
+.contact_page ul li svg{
+    color: black;
+    font-size: 1.75rem !important;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+ .contact_page ul li:hover svg{
+    transform: scale(0);
+    font-size: 1.75rem ;
+    transition-delay: 0.25s;
+}
+.contact_page ul li svg{
+    color: black;
+    font-size: 1.75rem !important;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+.contact_page ul li span{
+    position: absolute;
+}
+/* css texto */
+.contact_page ul li .title_contact{
+    color: #fff;
+    font-size: 1.1rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0cap;
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+.contact_page ul li:hover .title_contact{
+    transform: scale(1);
+    transition-delay: 0.25s;
 }
