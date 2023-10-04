@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Css parte superior */
-.bg-header{
-    display: flex; 
+.bg-header {
+    display: flex;
     color: black;
     padding: 1vh 2vh 0vh 2vh;
 
@@ -13,89 +14,25 @@
     margin-left: auto;
     margin-right: auto;
 }
-.item_dev{
+
+.item_dev {
     display: flex;
     justify-content: center;
 }
-.item_icons{
+
+.item_icons {
     display: flex;
     justify-content: end;
-    
+
 }
-.item_icons svg{
+
+.item_icons svg {
     padding: 3px;
 }
 
-/* css botao dropdown menu */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropbtn {
-    position: fixed;
-    width: 7vh;
-    height: 10vh;
-    background-color:black ;
-    color: white;
-    border-radius: 0 2vh 2vh 0;
-
-}
-  
-  
-.dropdown_link {
-    display: none;
-    position: fixed;
-    background-color:black;
-    height: 100%;
-    min-width: 30vh;
-    max-width: 30vh;
-    border-radius: 0 2vh 2vh 0;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    padding: 3vh;
-    
-}
-
-.dropdown_link li{
-    display: flex;
-    margin-top: 1vh;
-    margin-bottom: 2vh;
-
-    border-bottom:  solid 1px white;
-
-}
-.dropdown_link li svg{
-    width: 4vh;
-    height: 4vh;
-    color: white;
-    margin-right: 2vh;
-}
-.dropdown_link a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-  
-.dropdown_link a:hover{
-    background-color: white;
-    color: black;
-    width: 100%;
-    border-radius:2vh ;
-}
-.dropdown_link svg:hover{
-    color: black;
-}
-  
-.dropdown:hover .dropdown_link {
-     display:block; 
-}
-  
-
 
 /* css page */
-.body{
+.body {
     overflow: hidden;
 }
 
@@ -121,24 +58,27 @@
 
 
 /* conteudo */
-.conteudo{
+.conteudo {
     margin-top: 10vh;
     text-align: center;
 }
-.sobre_mim{
+
+.sobre_mim {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
-.centro_text{
+
+.centro_text {
     margin-left: auto;
     margin-right: auto;
     min-width: 20vh;
     max-width: 50vh;
 }
+
 /* Logos das tecnologias */
-.tecnologia svg{
+.tecnologia svg {
     width: 6vh;
     height: 6vh;
     margin-top: 2vh;
@@ -146,7 +86,7 @@
 }
 
 /* botoes de link */
-.about_me button{
+.about_me button {
     background-color: white;
     border: solid 2px black;
     border-radius: 3px;
@@ -155,41 +95,47 @@
     max-width: 12vh;
     min-height: 4vh;
     max-height: 4vh;
-   
+
     margin-bottom: 6vh;
 }
-.about_me button:hover{
+
+.about_me button:hover {
     border: solid 2px blue;
 }
+
 .about_me a {
     color: black;
 }
-.about_me a:hover{
+
+.about_me a:hover {
     cursor: pointer;
     text-decoration: none;
     color: blue;
 }
+
 /* Css imgem */
-.imagem img{
+.imagem img {
     min-width: 40vh;
     max-width: 40vh;
 
 }
 
 /* Css container um pouco sobre mim */
-.divisao{
+.divisao {
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
-.title2_mais_sobre{
+
+.title2_mais_sobre {
     text-align: center;
 }
 
-.conteudo_mais_sobre{
+.conteudo_mais_sobre {
     margin-top: 6vh;
 }
+
 /* css img */
-.imagem_pessoal img{
+.imagem_pessoal img {
     border: 1px solid black;
     border-radius: 100%;
 
@@ -199,19 +145,21 @@
     max-height: 40vh;
 }
 
-.imagem_pessoal{
+.imagem_pessoal {
     margin-top: 3vh;
     text-align: center;
     margin-bottom: 3vh;
 
 }
-/* css testo */
-.texto{
+
+/* css texto */
+.texto {
     display: flex;
 }
+
 /* /* css linha vertical */
 
-#linha_vertical{
+#linha_vertical {
     height: 13rem;
     border-right: 1px solid blue;
     margin-right: 3vh;
@@ -219,27 +167,29 @@
 
 
 /* -----------secao contato------------ */
-.contact_page{
+.contact_page {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
+
 /* Edição div fundo */
-.contact_page ul{
+.contact_page ul {
     position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 8vh;
-    background: rgb(242,242,242);
-    background: radial-gradient(circle, rgba(242,242,242,0.5) 0%, rgba(217,217,217,0.5) 50%, rgba(191,191,191,0.5) 100%);
+    background: rgb(242, 242, 242);
+    background: radial-gradient(circle, rgba(242, 242, 242, 0.5) 0%, rgba(217, 217, 217, 0.5) 50%, rgba(191, 191, 191, 0.5) 100%);
     padding: 2vh 5vh 2vh 5vh;
     border-radius: 10vh;
 }
+
 /* css botao */
-.contact_page ul li{
+.contact_page ul li {
     position: relative;
     list-style: none;
     width: 60px;
@@ -249,77 +199,87 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
 }
-.contact_page ul li:hover{
+
+.contact_page ul li:hover {
     width: 180px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
 }
+
 /*-- Css para cor dos botoes quando abertos --*/
-.contact_page ul .linkdin::before{
+.contact_page ul .linkdin::before {
     content: '';
     position: absolute;
-    inset:0;
+    inset: 0;
     border-radius: 50px;
     background-color: #1BB8FA;
     opacity: 0;
     transition: 0.5s;
 }
-.contact_page ul .email::before{
+
+.contact_page ul .email::before {
     content: '';
     position: absolute;
-    inset:0;
+    inset: 0;
     border-radius: 50px;
     background-color: #C92724;
     opacity: 0;
     transition: 0.5s;
 }
-.contact_page ul .github::before{
+
+.contact_page ul .github::before {
     content: '';
     position: absolute;
-    inset:0;
+    inset: 0;
     border-radius: 50px;
     background-color: #323232;
     opacity: 0;
     transition: 0.5s;
 }
-.contact_page ul .whats::before{
+
+.contact_page ul .whats::before {
     content: '';
     position: absolute;
-    inset:0;
+    inset: 0;
     border-radius: 50px;
     background-color: #6AF35A;
     opacity: 0;
     transition: 0.5s;
 }
 
-.contact_page ul li:hover::before{
+.contact_page ul li:hover::before {
     opacity: 1;
 }
+
 /* para a imagem sumir */
-.contact_page ul li svg{
+.contact_page ul li svg {
     color: black;
     font-size: 1.75rem !important;
     transition: 0.5s;
     transition-delay: 0.25s;
 }
- .contact_page ul li:hover svg{
+
+.contact_page ul li:hover svg {
     transform: scale(0);
-    font-size: 1.75rem ;
+    font-size: 1.75rem;
     transition-delay: 0.25s;
 }
-.contact_page ul li svg{
+
+.contact_page ul li svg {
     color: black;
     font-size: 1.75rem !important;
     transition: 0.5s;
     transition-delay: 0.25s;
 }
-.contact_page ul li span{
+
+.contact_page ul li span {
     position: absolute;
 }
+
 /* css texto */
-.contact_page ul li .title_contact{
+.contact_page ul li .title_contact {
     color: #fff;
     font-size: 1.1rem !important;
     text-transform: uppercase;
@@ -328,7 +288,8 @@
     transition: 0.5s;
     transition-delay: 0s;
 }
-.contact_page ul li:hover .title_contact{
+
+.contact_page ul li:hover .title_contact {
     transform: scale(1);
     transition-delay: 0.25s;
 }
