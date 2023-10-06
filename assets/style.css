@@ -5,12 +5,19 @@
 }
 
 /* Css parte superior */
+.row{
+    display: flex;
+    justify-content: center;
+}
 .bg-header {
     display: flex;
-    color: black;
-    padding: 1vh 2vh 0vh 2vh;
+    position: fixed;
+    z-index: 1;
+    color:white;
+    padding: 1vh 2vh 1vh 2vh;
+    background-color: #a2dfeb;
 
-    border-bottom: solid 1.5px black;
+    border-radius: 2vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,8 +31,15 @@
     display: flex;
     justify-content: end;
 
-}
 
+}
+.item_icons a{
+    color: white;
+}
+.item_icons a:hover{
+    color: rgb(113, 113, 255);
+    transition: 0.5s;
+}
 .item_icons svg {
     padding: 3px;
 }
@@ -59,7 +73,7 @@
 
 /* conteudo */
 .conteudo {
-    margin-top: 10vh;
+    margin-top: 15vh;
     text-align: center;
 }
 
@@ -78,9 +92,9 @@
 }
 
 /* Logos das tecnologias */
-.tecnologia svg {
-    width: 6vh;
-    height: 6vh;
+.tecnologia img {
+    max-width: 6vh;
+    max-height: 6vh;
     margin-top: 2vh;
     margin-bottom: 6vh;
 }
@@ -115,8 +129,8 @@
 
 /* Css imgem */
 .imagem img {
-    min-width: 40vh;
-    max-width: 40vh;
+    min-width: 50vh;
+    max-width: 50vh;
 
 }
 
@@ -165,131 +179,143 @@
     margin-right: 3vh;
 }
 
-
-/* -----------secao contato------------ */
-.contact_page {
+/* --Css projetos */
+ .title_projetos{
+    text-align: center;
+}
+.title_projetos h1{
+    
+}
+.projetos_conteudo{
     display: flex;
     justify-content: center;
-    align-items: center;
-
-
 }
+.conteudo_card{
+    /* border: 1px solid red; */
 
-/* Edição div fundo */
-.contact_page ul {
-    position: relative;
+    padding: 2vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 8vh;
-    background: rgb(242, 242, 242);
-    background: radial-gradient(circle, rgba(242, 242, 242, 0.5) 0%, rgba(217, 217, 217, 0.5) 50%, rgba(191, 191, 191, 0.5) 100%);
-    padding: 2vh 5vh 2vh 5vh;
-    border-radius: 10vh;
+
+    max-width: 90vh;
+
+
+
+}
+.card_img{
+    /* border: 1px solid red; */
+    max-width: 45vh;
+    padding: 2vh 2vh 2vh 2vh;
+}
+.card_img img{
+    max-width: 35vh;
+    min-width: 30vh;
+    min-height: 30vh;
+    max-height: 35vh;
+    border-radius: 2vh;
+}
+.text-card{
+    /* border: 1px solid red; */
+    padding: 2vh 2vh 2vh 2vh;
+    max-width: 45vh;
+
 }
 
-/* css botao */
-.contact_page ul li {
-    position: relative;
-    list-style: none;
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    cursor: pointer;
+/* Css icon tecnologia */
+.conteudo_card svg{
+    max-width: 4vh;
+    margin-bottom: 1vh;
+}
+
+/* botao geral card css */
+.botoes{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    transition: 0.5s;
+    justify-content: space-around;
 }
+.btn{
+    color: white;
+    width: 20vh;
+    height: 5vh;
+}
+/* Botão git-hub */
+.botao_visitar_git{
+    background-color: rgb(26, 26, 26);
 
-.contact_page ul li:hover {
-    width: 180px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
 }
+.botao_visitar_git:hover{
+    background-color: black;
+    color: #a2dfeb;
+}
+ /* Botão web  */
+.botao_visitar_web{
+    background-color: #0378A6;
+}
+.botao_visitar_web:hover{
+    background-color: #025677;
+    color:#a2dfeb;   
+} 
+/* .projetos_conteudo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.conteudo_card{
+    border: 0.5vh solid #0378A6;
+    border-radius: 2vh;
 
-/*-- Css para cor dos botoes quando abertos --*/
-.contact_page ul .linkdin::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 50px;
-    background-color: #1BB8FA;
-    opacity: 0;
-    transition: 0.5s;
-}
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
 
-.contact_page ul .email::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 50px;
-    background-color: #C92724;
-    opacity: 0;
-    transition: 0.5s;
-}
+    min-width: 40vh;
+    max-width: 50vh;
+    min-height: 70vh;
+    max-height: 82vh;
+} */
 
-.contact_page ul .github::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 50px;
-    background-color: #323232;
-    opacity: 0;
-    transition: 0.5s;
-}
+/* css imagem card */
+/* .conteudo_card img{
+    padding: 2vh 2vh 2vh 2vh;
+    border-radius: 4vh;
+    min-height: 50%;
+    max-height: 50%;
+} */
 
-.contact_page ul .whats::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 50px;
-    background-color: #6AF35A;
-    opacity: 0;
-    transition: 0.5s;
-}
+/* css botao visitar */
+/* .container_projetos .botoes{
+    display: flex;
+    justify-content: space-around;
 
-.contact_page ul li:hover::before {
-    opacity: 1;
 }
+.botao_visitar_git{
+    color: white;
+    background-color: rgb(26, 26, 26); 
+    border: none;
+    width: 40%;
+}
+.botao_visitar_git:hover{
+    background-color: black;
+}
+.botao_visitar_web{
+    color: white;
+    background-color: #0378A6; 
+    border: none;
+    width: 40%;
+}
+.botao_visitar_web:hover{
+    background-color: red;
+} */
 
-/* para a imagem sumir */
-.contact_page ul li svg {
-    color: black;
-    font-size: 1.75rem !important;
-    transition: 0.5s;
-    transition-delay: 0.25s;
-}
+/* tecnologia icons */
+/* .conteudo_card svg{
+    margin-bottom: 2vh;
 
-.contact_page ul li:hover svg {
-    transform: scale(0);
-    font-size: 1.75rem;
-    transition-delay: 0.25s;
-}
-
-.contact_page ul li svg {
-    color: black;
-    font-size: 1.75rem !important;
-    transition: 0.5s;
-    transition-delay: 0.25s;
-}
-
-.contact_page ul li span {
-    position: absolute;
-}
-
-/* css texto */
-.contact_page ul li .title_contact {
-    color: #fff;
-    font-size: 1.1rem !important;
-    text-transform: uppercase;
-    letter-spacing: 0cap;
-    transform: scale(0);
-    transition: 0.5s;
-    transition-delay: 0s;
-}
-
-.contact_page ul li:hover .title_contact {
-    transform: scale(1);
-    transition-delay: 0.25s;
-}
+    min-width: 6vh;
+    max-width: 6vh;
+    min-height: 6vh;
+    max-height: 6vh;
+} */
