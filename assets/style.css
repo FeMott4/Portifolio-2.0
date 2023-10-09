@@ -100,31 +100,52 @@
 }
 
 /* botoes de link */
-.about_me button {
+.about_me{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.about_me .botao {
     background-color: white;
     border: solid 2px black;
     border-radius: 3px;
 
-    min-width: 12vh;
+
+    min-width: 15vh;
     max-width: 12vh;
     min-height: 4vh;
     max-height: 4vh;
 
-    margin-bottom: 6vh;
 }
 
-.about_me button:hover {
+.about_me .botao:hover {
     border: solid 2px blue;
 }
 
 .about_me a {
     color: black;
+    
 }
 
 .about_me a:hover {
     cursor: pointer;
     text-decoration: none;
     color: blue;
+
+}
+/* CSS menu expansivo */
+.menu_expansivo{
+
+    border-radius: 0 4vh 4vh 0;
+}
+.menu_expansivo .cabecalho,button{
+    background-color: #a2dfeb;
+    color: white;
+    border-radius: 0 4vh 0 0;
+}
+.menu_expansivo .text{
+    margin-top: 4vh;
+    text-align: start;
+
 }
 
 /* Css imgem */
@@ -152,7 +173,6 @@
 .imagem_pessoal img {
     border: 1px solid black;
     border-radius: 100%;
-
     min-width: 30vh;
     max-width: 40vh;
     min-height: 30vh;
@@ -163,7 +183,6 @@
     margin-top: 3vh;
     text-align: center;
     margin-bottom: 3vh;
-
 }
 
 /* css texto */
@@ -179,32 +198,24 @@
     margin-right: 3vh;
 }
 
+/* ---CSS formações--- */
+
 /* --Css projetos */
  .title_projetos{
     text-align: center;
-}
-.title_projetos h1{
-    
 }
 .projetos_conteudo{
     display: flex;
     justify-content: center;
 }
 .conteudo_card{
-    /* border: 1px solid red; */
-
     padding: 2vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
     max-width: 90vh;
-
-
-
 }
 .card_img{
-    /* border: 1px solid red; */
     max-width: 45vh;
     padding: 2vh 2vh 2vh 2vh;
 }
@@ -216,10 +227,8 @@
     border-radius: 2vh;
 }
 .text-card{
-    /* border: 1px solid red; */
     padding: 2vh 2vh 2vh 2vh;
     max-width: 45vh;
-
 }
 
 /* Css icon tecnologia */
@@ -255,67 +264,3 @@
     background-color: #025677;
     color:#a2dfeb;   
 } 
-/* .projetos_conteudo{
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.conteudo_card{
-    border: 0.5vh solid #0378A6;
-    border-radius: 2vh;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6vh;
-    margin-bottom: 6vh;
-
-    min-width: 40vh;
-    max-width: 50vh;
-    min-height: 70vh;
-    max-height: 82vh;
-} */
-
-/* css imagem card */
-/* .conteudo_card img{
-    padding: 2vh 2vh 2vh 2vh;
-    border-radius: 4vh;
-    min-height: 50%;
-    max-height: 50%;
-} */
-
-/* css botao visitar */
-/* .container_projetos .botoes{
-    display: flex;
-    justify-content: space-around;
-
-}
-.botao_visitar_git{
-    color: white;
-    background-color: rgb(26, 26, 26); 
-    border: none;
-    width: 40%;
-}
-.botao_visitar_git:hover{
-    background-color: black;
-}
-.botao_visitar_web{
-    color: white;
-    background-color: #0378A6; 
-    border: none;
-    width: 40%;
-}
-.botao_visitar_web:hover{
-    background-color: red;
-} */
-
-/* tecnologia icons */
-/* .conteudo_card svg{
-    margin-bottom: 2vh;
-
-    min-width: 6vh;
-    max-width: 6vh;
-    min-height: 6vh;
-    max-height: 6vh;
-} */
